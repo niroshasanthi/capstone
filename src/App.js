@@ -1,10 +1,10 @@
 import React from 'react';
-import ParentLoginForm from './components/ParentLoginForm';
+import ParentSignupForm from './components/ParentSignupForm';
 
 function App() {
     return (
         <div>
-            <ParentLoginForm />
+            <ParentSignupForm />
         </div>
     );
 }
