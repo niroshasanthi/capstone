@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8082/api'; // backend URL
+const API_BASE_URL = 'http://localhost:8081/api'; // adjust if backend is hosted elsewhere
 
-export const loginParent = async (parentData) => {
-    return axios.post(`${API_BASE_URL}/parents/login`, parentData);
+export const signupParent = async (parentData) => {
+    return axios.post(`${API_BASE_URL}/parents/signup`, parentData);
 };
